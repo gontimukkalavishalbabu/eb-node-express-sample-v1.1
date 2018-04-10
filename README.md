@@ -30,3 +30,6 @@ You can get started using the following steps:
     2. Enter the CNAME prefix you want to use for this environment.
   5. Once the environment creation process completes, run `eb open` to open the application in a browser.
   6. Run `eb terminate --all` to clean up.
+
+  To zip from windows command line
+  "C:\Program Files\7-Zip\7z.exe" a  -r eb-node-express-sample-v1.1.zip -w c:\bench\MyAWS\eb-node-express-sample-v1.1 -mem=AES256
